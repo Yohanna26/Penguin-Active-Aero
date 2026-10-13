@@ -1,0 +1,9 @@
+{
+  "strategy": "Predetermined from mass-only reference",
+  "minimum_radius_m": 100,
+  "minimum_reference_speed_mps": 15,
+  "switch_time_s": 0,
+  "actuator_energy_included": false,
+  "aero_parameters": "Hypothetical fixed-state sensitivity cases",
+  "baseline_reference_s_rounded": 51.1112
+}

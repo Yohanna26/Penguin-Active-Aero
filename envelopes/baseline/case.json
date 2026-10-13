@@ -1,0 +1,11 @@
+{
+  "case": "Penguin baseline",
+  "source_commit": "37ed2a110a51915c508dd1d5cae2cc9ff422bba8",
+  "total_mass_kg": 279.4,
+  "CLA": 3.6,
+  "CDA": 1.2,
+  "CDA_note": "Repository placeholder, not validated",
+  "rear_aero_fraction": 0.55,
+  "aero_map_enabled": false,
+  "tire": "/Users/yohannayang/LHRIC/vehicle-analysis/packages/tires/SES_combined.tir"
+}

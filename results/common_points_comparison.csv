@@ -1,0 +1,5 @@
+case,lap_time_s,max_speed_kmh,result_csv,delta_vs_baseline_s,delta_vs_mass_only_s
+baseline,51.119756073075685,101.53512844968246,/Users/yohannayang/LHRIC/Penguin-Active-Aero/results/common_points/baseline/run_2026-10-13_17hr26min18s.csv,0.0,-0.22760413246396638
+mass_only,51.34736020553965,101.40749804747404,/Users/yohannayang/LHRIC/Penguin-Active-Aero/results/common_points/mass_only/run_2026-10-13_17hr26min22s.csv,0.22760413246396638,0.0
+front_high,51.31791094769549,101.36933376365536,/Users/yohannayang/LHRIC/Penguin-Active-Aero/results/common_points/front_high/run_2026-10-13_17hr26min25s.csv,0.19815487461980297,-0.029449257844163412
+rear_high,51.36749879012172,101.33662240706825,/Users/yohannayang/LHRIC/Penguin-Active-Aero/results/common_points/rear_high/run_2026-10-13_17hr26min28s.csv,0.24774271704603734,0.020138584582070962

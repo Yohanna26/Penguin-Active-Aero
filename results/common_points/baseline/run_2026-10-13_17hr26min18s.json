@@ -1,0 +1,19 @@
+{
+  "case": "Penguin baseline - fixed-state sensitivity",
+  "envelope": "/Users/yohannayang/LHRIC/Penguin-Active-Aero/envelopes/common_points/baseline/Penguin_2026-10-13_17hr05min48s/envelope.npz",
+  "track": "/Users/yohannayang/LHRIC/vehicle-analysis/packages/qss/comp_tracks_2026/autox26-windowed_2026-09-01_08-52-44_spacing0.1m.csv",
+  "lap_time_s": 51.119756073075685,
+  "max_speed_kmh": 101.53512844968246,
+  "min_speed_kmh": 17.74951171875,
+  "speed_limit_mps": 35.0,
+  "shift_points_mps": [
+    15.336,
+    19.692,
+    23.355,
+    27.009,
+    29.628
+  ],
+  "shift_lag_ms": 150,
+  "points_below_envelope_speed_range": 1,
+  "result_csv": "/Users/yohannayang/LHRIC/Penguin-Active-Aero/results/common_points/baseline/run_2026-10-13_17hr26min18s.csv"
+}

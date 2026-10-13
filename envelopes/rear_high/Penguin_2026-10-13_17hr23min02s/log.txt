@@ -1,0 +1,123 @@
+Envelope generated 2026-10-13 17:23:02
+Folder: /Users/yohannayang/LHRIC/Penguin-Active-Aero/envelopes/rear_high/Penguin_2026-10-13_17hr23min02s
+
+Available cars: 2027_Car, Penguin, Raccoon
+Selected car:   Penguin
+Tire:           SES_combined.tir  (Fx 0.60, Fy 0.60, Mz 0.60)
+Tire file path: /Users/yohannayang/LHRIC/vehicle-analysis/packages/tires/SES_combined.tir
+
+SWEEP GRID
+  v [m/s]      5 to 35, 8 points
+  delta [deg]  -45 to 45, 7 points
+  throttle     -1 to 1, 7 points
+  beta [deg]   -11 to 11, 7 points
+  w [rad/s]    0 to 0, 1 points
+
+Sweep complete: 2744 points, 147 unconverged/failed  (27.9 s)
+
+====================================================================================================
+Penguin
+====================================================================================================
+
+SINGLE PARAMETERS
+  total_vehicle_mass                    212.9   kg
+  front_unsprung_mass                       7   kg
+  rear_unsprung_mass                      6.5   kg
+  driver_mass                              68   kg
+  total_z_moi                         136.302   kg*m^2
+  cg_bias                               0.513   % rear
+  cg_x                                 -0.005   m
+  cg_y                                      0   m
+  cg_z                                0.30734   m
+  front_trackwidth                       1.24   m
+  rear_trackwidth                        1.24   m
+  wheelbase                             1.535   m
+  front_heave_rate                    43.3714   kN/mm
+  rear_heave_rate                     54.3473   kN/mm
+  total_lltd                             0.55   % rear
+  roll_gradient                          0.78   deg/G
+  anti_dive_pct                          0.15   %
+  anti_squat_pct                            0   %
+  front_static_toe                          0   deg
+  rear_static_toe                           0   deg
+  front_static_camber                      -1   deg
+  rear_static_camber                       -1   deg
+  front_bump_toe                            0   deg toe / deg body roll
+  rear_bump_toe                             0   deg toe / deg body roll
+  front_camber_gain                  0.729446   deg IA / deg body roll
+  rear_camber_gain                   0.675336   deg IA / deg body roll
+  front_scrub_radius                       16   mm
+  front_mech_trail                         13   mm
+  front_kpia                                9   deg
+  front_caster_angle                        1   deg
+  steer_ratio                         1.15417   deg / mm
+  c_factor                                 80   mm / rev
+  gearbox_reduction                         1   rev / rev
+  u_joint_angle                            20   deg
+  u_joint_phase_offset                      0   True/False
+  front_toe_fy_c                        0.001   deg / kN
+  front_toe_mz_c                        0.001   deg / Nm
+  front_camber_fy_c                     0.001   deg / kN
+  rear_toe_fy_c                         0.001   deg / kN
+  rear_toe_mz_c                         0.001   deg / Nm
+  rear_camber_fy_c                      0.001   deg / kN
+  primary_reduction                    2.1111   ratio
+  sprocket_reduction                  2.85714   ratio
+  top_gear_number                           6   -
+  tranmission_efficiency_pct              0.9   percent
+  diff_efficiency_pct                    0.99   percent
+  net_efficiency_pct                    0.891   percent
+  shift_time                              0.1   s
+  brake_torque_bias                  0.683917   % front
+  total_available_torque              1620.51   Nm
+  cl_a                                3.65046   -
+  cd_a                                1.21009   -
+  rear_cop_bias_pct                   0.55622   % rear
+  aero_map_toggle                           0   True/False
+  nominal_ride_height                   0.055   m
+
+INERTIA TENSOR (kg*m^2)
+  x         30.649      0.338154      -2.42856
+  y       -1.60542       123.494       -2.0994
+  z        10.7678       2.45343       136.302
+  I_xx 30.649   I_yy 123.494   I_zz 136.302
+
+ACKERMAN CURVE
+  mean_steer_deg inside_minus_outside
+             0.1         0.0125
+               1          0.125
+               8              1
+              16              2
+              24              3
+              32              4
+
+GEAR TABLE (truncated to top gear)
+     gear_number gear_reduction
+               1           2.75
+               2              2
+               3        1.66667
+               4        1.44444
+               5        1.30435
+               6        1.20833
+
+THROTTLE MAP (Nm)                                                                |  WOT 90 deg curve
+      rpm      10      20      30      40      50      60      70      80      90   |        rpm    torque
+     4000     nan     nan     nan     nan     nan     nan     nan     nan    39.4   |       4000    39.398
+     4500     nan     nan     nan     nan     nan     nan     nan     nan    39.1   |       4500      39.1
+     5000     nan     nan     nan     nan     nan     nan     nan     nan   45.75   |       5000   45.7527
+     5500     nan     nan     nan     nan     nan     nan     nan     nan   45.69   |       5500   45.6923
+     6000     nan     nan     nan     nan     nan     nan     nan     nan   48.56   |       6000   48.5609
+     6500     nan     nan     nan     nan     nan     nan     nan     nan    48.8   |       6500   48.7956
+     7000     nan     nan     nan     nan     nan     nan     nan     nan   51.92   |       7000   51.9243
+     7500     nan     nan     nan     nan     nan     nan     nan     nan   54.46   |       7500   54.4563
+     8000     nan     nan     nan     nan     nan     nan     nan     nan    55.2   |       8000   55.2002
+     8500     nan     nan     nan     nan     nan     nan     nan     nan   53.59   |       8500    53.592
+     9000     nan     nan     nan     nan     nan     nan     nan     nan   53.55   |       9000   53.5499
+     9500     nan     nan     nan     nan     nan     nan     nan     nan    48.8   |       9500   48.8015
+    10000     nan     nan     nan     nan     nan     nan     nan     nan   43.62   |      10000   43.6175
+    10500     nan     nan     nan     nan     nan     nan     nan     nan   39.86   |      10500   39.8622
+    11000     nan     nan     nan     nan     nan     nan     nan     nan   39.96   |      11000   39.9642
+    11500     nan     nan     nan     nan     nan     nan     nan     nan   40.66   |      11500    40.665
+    12000     nan     nan     nan     nan     nan     nan     nan     nan   40.03   |      12000   40.0346
+    12500     nan     nan     nan     nan     nan     nan     nan     nan   39.22   |      12500   39.2191
+    13000     nan     nan     nan     nan     nan     nan     nan     nan   36.93   |      13000   36.9264

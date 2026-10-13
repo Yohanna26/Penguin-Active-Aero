@@ -1,0 +1,3 @@
+case,lap_time_s,delta_vs_original_s,delta_vs_mass_only_s,low_state_distance_pct,result_csv
+front_high_switching,51.30757211581366,0.19637211581366643,-0.028885030433201564,17.953439431803258,/Users/yohannayang/LHRIC/Penguin-Active-Aero/results/switching/front_high/run_2026-10-13_17hr29min49s.csv
+rear_high_switching,51.35686709966464,0.24566709966464373,0.02040995341777574,17.953439431803258,/Users/yohannayang/LHRIC/Penguin-Active-Aero/results/switching/rear_high/run_2026-10-13_17hr29min53s.csv

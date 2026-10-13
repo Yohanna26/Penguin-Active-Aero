@@ -1,0 +1,21 @@
+{
+  "case": "Penguin rear_high - assumed sensitivity",
+  "source_commit": "37ed2a110a51915c508dd1d5cae2cc9ff422bba8",
+  "total_mass_kg": 280.9,
+  "CLA": 3.65045667328,
+  "CDA": 1.210091334656,
+  "CDA_note": "Repository placeholder, not validated",
+  "rear_aero_fraction": 0.5562199075371025,
+  "aero_map_enabled": false,
+  "tire": "/Users/yohannayang/LHRIC/vehicle-analysis/packages/tires/SES_combined.tir",
+  "assumptions": {
+    "added_mass_kg": 1.5,
+    "movable_area_m2": 0.10091334656000002,
+    "assumed_delta_CL": 0.5,
+    "assumed_delta_CD": 0.1,
+    "increment_assigned_to_axle": "rear",
+    "CG_and_inertia": "unchanged",
+    "mode": "fixed state, no active switching",
+    "angle_mapping": "unknown"
+  }
+}
