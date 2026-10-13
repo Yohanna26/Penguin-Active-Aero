@@ -1,28 +1,3 @@
-在 `Penguin-Active-Aero` 文件夹运行下面这段，会更新 `README.md`：
-
-```bash
-cat > README.md <<'EOF'
-# Penguin Active Aero
-
-Preliminary active-aero sensitivity study using Penguin vehicle data and the LHR `vehicle-analysis` simulation tools.
-
-The goal is to compare the lap-time effects of added actuator mass, front/rear aero changes, and a simple two-state switching strategy.
-
-## Simulation workflow
-
-Vehicle configuration → steady-state solver → performance envelopes → QSS lap simulation → case comparison.
-
-Dependency: a local checkout of `vehicle-analysis` next to this repository:
-
-```text
-LHRIC/
-├── vehicle-analysis/
-└── Penguin-Active-Aero/
-```
-
-Source commit used:
-`37ed2a110a51915c508dd1d5cae2cc9ff422bba8`
-
 ## Baseline settings
 
 | Parameter | Value |
